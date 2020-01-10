@@ -26,6 +26,7 @@ We show an example of targeted adversarial attack on ResNet18 (Golden model). De
 * **Substitute model checkpoints**: The checkpoints for the trained substitute model can be downloaded from [google drive](https://drive.google.com/drive/folders/1JrTkT9C0klWFMK4x-KSMqvvPJ7k3TL6U?usp=sharing). Unzip the files in the ''models'' to the directory of  DeepSniffer/AdversarialAttack/. 
 * **Datasets**: We provide a smaller dataset from ImageNet for adversarial attack experiments, which can be downloaded from [google drive](https://drive.google.com/drive/folders/1JrTkT9C0klWFMK4x-KSMqvvPJ7k3TL6U?usp=sharing). Unzip the files in ''data_100'' under the directory of DeepSniffer/AdversarialAttack/data_100. 
 To reproduce the results of Table6, run python DeepSniffer/AdversarialAttack/AdversarialAttack.py. To reproduce the results of Figure 10, run python DeepSniffer/AdversarialAttack/auto_attack_labels_random.py. 
+* **Results**: The log files of attack results locate under the directory of DeepSniffer/AdversarialAttack/attack_result/, run DeepSniffer/AdversarialAttack/attack_result/parser_ae.py to display the attack success rate of different substitute models.
 
 
 **If you have any questions, please feel free to open issue in this project. Thanks!**
